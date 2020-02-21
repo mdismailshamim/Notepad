@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/itemCv">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:hint="Title"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/button_shape"
+            android:text="Title"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/detailsTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="here"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack"
+            android:background="@drawable/details_edit_text_shape"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
